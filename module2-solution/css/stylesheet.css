@@ -8,11 +8,15 @@
 /*Section I - this portion of the css provides styling and structure for Menu section*/
 
 /*changed the html background color and set text color to white*/
-body, html{ 
+ html{ 
   background-color: #E37222;
   color: #ffff;
-  position:fixed;
+  overflow: scroll;
 }
+ body{
+ 	background-color: #E37222;
+  color: #ffff;
+ }
 /*The header section is given padding on all sides*/
 header{
 	padding: 15px 15px 15px 50px;
@@ -125,4 +129,49 @@ p#copy{
 /*In order to create a three column menu; clear attribute is used to push other elements to the next line*/
 p#clear{
 	clear:both;
+}
+/*media queries large devices*/
+@media(min-width: 992px) {
+	#textbox1{
+		width: 33%;
+	}
+	#textbox2{
+		width: 33%;
+	}
+	#textbox3{
+		width: 33%;
+	}
+}
+/*media queries medium devices*/
+@media(min-width: 768px) and (max-width: 991px){
+	#textbox1{
+		width: 49%;
+	}
+	#textbox2{
+		width: 49%;
+	}
+	#textbox3{
+		width: 98%;
+	}
+	#container{
+		height:700px;
+	}
+}
+
+
+/*media queries small devices*/
+@media(max-width: 767px){
+	#textbox1{
+		width: 99%;
+	}
+	#textbox2{
+		width: 99%;
+	}
+	#textbox3{
+		width: 99%;
+	}
+	#container{
+		height:1000px;
+	}
+
 }
