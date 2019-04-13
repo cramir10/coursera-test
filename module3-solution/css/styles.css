@@ -4,9 +4,7 @@
 	box-sizing: border-box;
 }
 
-section{
-	width: 100%;
-}
+
 h1 {
 	font-family: Helvetica;
 	color: #000000;
@@ -50,6 +48,7 @@ section {
 #item1 {
 	text-align: center;
 	width: 30%;
+	margin-left: 33%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -61,6 +60,7 @@ section {
 #item2 {
 	text-align: center;
 	width: 30%;
+	margin-left: 33%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
@@ -72,6 +72,7 @@ section {
 #item3 {
 	text-align: center;
 	width: 30%;
+	margin-left: 33%;
 	font-family: Georgia,sans-serif;
 	font-weight: bold;
 	font-size: 125%;
